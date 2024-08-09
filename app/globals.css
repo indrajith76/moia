@@ -1,12 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
 
 .home-bg {
-  background-image: url(../public/images/bg.png); 
+  background-image: url(../public/images/bg.png);
+}
+
+.home-bg::after {
+  content: "";
+  background-color: rgba(40, 83, 57, .3); 
+  display: block;
+  height: 100%; 
+  width: 100%;
 }
 
 .home-bg-img {
-    z-index: 10;
+  z-index: 10;
 }
