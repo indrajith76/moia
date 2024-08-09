@@ -20,6 +20,26 @@ export default function Home() {
         src="/images/moia-bg2.png"
         alt=""
       />
+      <img
+        className="absolute top-0 left-[1180px]"
+        src="/images/Star-4.png"
+        alt=""
+      />
+      <img
+        className="absolute left-0 top-[180px]"
+        src="/images/Star-5.png"
+        alt=""
+      />
+      <img
+        className="absolute top-[380px] right-24"
+        src="/images/Star-2.png"
+        alt=""
+      />
+      <img
+        className="absolute left-[210px] top-[560px]"
+        src="/images/Star-3.png"
+        alt=""
+      />
 
       <Navbar />
 
