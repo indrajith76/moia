@@ -4,7 +4,7 @@ import "./globals.css";
 
 export default function Home() {
   return (
-    <div className="home-bg relative h-screen md:h-[1024px] overflow-hidden">
+    <div className="home-bg relative h-screen md:h-[1024px] 2xl:h-screen overflow-hidden">
       <>
         <img
           className="absolute -top-10 md:-top-[148px] left-5 z-0"
